@@ -4,4 +4,4 @@ uid: wonderwareconsiderations
 
 # Wonderware considerations
 
-text
+This interface enables you to capture history from Invensys' Wonderware InBatch batch management system. 
