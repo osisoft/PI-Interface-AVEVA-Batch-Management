@@ -1,7 +1,6 @@
 # Introduction
-- topicUid: BIF_Introduction # Modify for interface
+- topicUid: BIF_Introduction # Customized for Factorytalk
   items:
-  - topicUid: BIF_InterfaceModes # No modifications required
   - topicUid: BIF_SupportedFeatures # Modify for interface
   - topicUid: BIF_ReferenceManuals # Modify for interface
 # Installation Prerequisites
