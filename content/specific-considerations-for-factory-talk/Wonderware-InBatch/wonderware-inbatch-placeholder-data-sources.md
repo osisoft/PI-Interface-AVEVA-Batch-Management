@@ -508,390 +508,390 @@ Combined PhaseInstruction + BatchIDLog
 | Defined in OperatorComment table.
 | [UserID]
 	
-DoneBy_User_ID
+| DoneBy_User_ID
 	
-Defined in OperatorComment table.
-[ReviewerID]
+| Defined in OperatorComment table.
+| [ReviewerID]
 	
-CheckBy_User_ID
+| CheckBy_User_ID
 	
-Defined in OperatorComment table.
-[Campaign]
+| Defined in OperatorComment table.
+| [Campaign]
 	
-Campaign_ID
+| Campaign_ID
 	
-Defined in BatchIDLog table.
-[Lot]
+| Defined in BatchIDLog table.
+| [Lot]
 	
-Lot_ID
+| Lot_ID
 	
-Defined in BatchIDLog table.
-[Train]
+| Defined in BatchIDLog table.
+| [Train]
 	
-Train_ID
+| Train_ID
 	
-Defined in BatchIDLog table.
-[BatchSize]
+| Defined in BatchIDLog table.
+| [BatchSize]
 	
-Batch_Size
+| Batch_Size
 	
-Defined in BatchIDLog table.
-[ProductID]
+| Defined in BatchIDLog table.
+| [ProductID]
 	
-Product_ID
+| Product_ID
 	
-Defined in BatchIDLog table.
-[ProductName]
+| Defined in BatchIDLog table.
+| [ProductName]
 	
-Product_Name
+| Product_Name
 	
-Defined in BatchIDLog table.
-[RecipeID]
+| Defined in BatchIDLog table.
+| [RecipeID]
 	
-Recipe_ID
+| Recipe_ID
 	
-Defined in BatchIDLog table.
-[RecipeName]
+| Defined in BatchIDLog table.
+| [RecipeName]
 	
-Recipe_Name
+| Recipe_Name
 	
-Defined in BatchIDLog table.
-[RecipeVersion]
+| Defined in BatchIDLog table.
+| [RecipeVersion]
 	
-Recipe_Version
+| Recipe_Version
 	
-Defined in BatchIDLog table.
-[RecipeState]
+| Defined in BatchIDLog table.
+| [RecipeState]
 	
-Recipe_State
+| Recipe_State
 	
-Defined in BatchIDLog table.
-[RecipeType]
+| Defined in BatchIDLog table.
+| [RecipeType]
 	
-Recipe_Type
+| Recipe_Type
 	
-Defined in BatchIDLog table.
+| Defined in BatchIDLog table.
 
 Combined MaterialInput + BatchIDLog+BatchDetail
 
-Template Placeholder
+| Template Placeholder
 	
-SQL Column Name
+| SQL Column Name
 	
-Description
-[TimeStamp]
+| Description
+| [TimeStamp]
 	
-DateTime
+| DateTime
 	
-Defined in MaterialInput table.
-[BatchID]
+| Defined in MaterialInput table.
+| [BatchID]
 	
-Batch_ID
+| Batch_ID
 	
-Defined in BatchIDLog table.
-[UniqueID]
+| Defined in BatchIDLog table.
+| [UniqueID]| 
 	
-Batch_Log_ID
+| Batch_Log_ID
 	
-Used to bind both MaterialInput and BatchIDLog tables. Serves as UniqueID of each batch.
-[Product]
+| Used to bind both MaterialInput and BatchIDLog tables. Serves as UniqueID of each batch.
+| [Product]
 	
-Product_Name or Product_ID
+| Product_Name or Product_ID
 	
-Defined in BatchIDLog table. This placeholder maps to Product_Name if non-empty, otherwise it maps to Product_ID.
-[Procedure]
+| Defined in BatchIDLog table. This placeholder maps to Product_Name if non-empty, otherwise it maps to Product_ID.
+| [Procedure]
 	
-Recipe_ID
+| Recipe_ID
 	
-Defined in BatchIDLog table.
-[Unit]
+| Defined in BatchIDLog table.
+| [Unit]
 	
-UnitOrConnection
+| UnitOrConnection
 	
-Defined in MaterialInput table.
-[UnitProcedure]
+| Defined in MaterialInput table.
+| [UnitProcedure]
 	
-UnitProcedure_ID
+| UnitProcedure_ID
 	
-Defined in MaterialInput table.
-[Operation]
+| Defined in MaterialInput table.
+| [Operation]
 	
-Operation_ID
+| Operation_ID
 	
-Defined in MaterialInput table.
-[Phase]
+| Defined in MaterialInput table.
+| [Phase]
 	
-Phase_ID
+| Phase_ID
 	
-Defined in MaterialInput table.
-[PhaseInstance]
+| Defined in MaterialInput table.
+| [PhaseInstance]
 	
-Index derived from Phase_Instance_ID
+| Index derived from Phase_Instance_ID
 	
-Defined in MaterialInput table. Provides phase instance index.
-[Parameter]
+| Defined in MaterialInput table. Provides phase instance index.
+| [Parameter]
 	
-N/A
+| N/A
 	
-Contains text "MaterialInput"
-[Descript]
+| Contains text "MaterialInput"
+| [Descript]
 	
-Material_Parameter
+| Material_Parameter
 	
-Defined in MaterialInput table.
-[Value]
+| Defined in MaterialInput table.
+| [Value]
 	
-Actual_Qty
+| Actual_Qty
 	
-Defined in MaterialInput table.
-[ActualValue]
+| Defined in MaterialInput table.
+| [ActualValue]
 	
-Actual_Qty
+| Actual_Qty
 	
-Defined in MaterialInput table.
-[TargetValue]
+| Defined in MaterialInput table.
+| [TargetValue]
 	
-Target_Qty
+| Target_Qty
 	
-Defined in MaterialInput table.
-[EU]
+| Defined in MaterialInput table.
+| [EU]
 	
-UnitOfMeasure
+| UnitOfMeasure
 	
-Defined in MaterialInput table.
-[UserID]
+| Defined in MaterialInput table.
+| [UserID]
 	
-DoneBy_User_ID
+| DoneBy_User_ID
 	
-Defined in BatchDetail table.
-[ReviewerID]
+| Defined in BatchDetail table.
+| [ReviewerID]
 	
-CheckBy_User_ID
+| CheckBy_User_ID
 	
-Defined in BatchDetail table.
-[MaterialID]
+| Defined in BatchDetail table.
+| [MaterialID]
 	
-Material_ID
+| Material_ID
 	
-Defined in MaterialInput table.
-[MaterialName]
+| Defined in MaterialInput table.
+| [MaterialName]
 	
-Material_Name
+| Material_Name
 	
-Defined in MaterialInput table.
-[MaterialLotID]
+| Defined in MaterialInput table.
+| [MaterialLotID]
 	
-Mtrl_Lot_ID
+| Mtrl_Lot_ID
 	
-Defined in MaterialInput table.
-[Campaign]
+| Defined in MaterialInput table.
+| [Campaign]
 	
-Campaign_ID
+| Campaign_ID
 	
-Defined in BatchIDLog table.
-[Lot]
+| Defined in BatchIDLog table.
+| [Lot]
 	
-Lot_ID
+| Lot_ID
 	
-Defined in BatchIDLog table.
-[Train]
+| Defined in BatchIDLog table.
+| [Train]
 	
-Train_ID
+| Train_ID
 	
-Defined in BatchIDLog table.
-[BatchSize]
+| Defined in BatchIDLog table.
+| [BatchSize]
 	
-Batch_Size
+| Batch_Size
 	
-Defined in BatchIDLog table.
-[ProductID]
+| Defined in BatchIDLog table.
+| [ProductID]
 	
-Product_ID
+| Product_ID
 	
-Defined in BatchIDLog table.
-[ProductName]
+| Defined in BatchIDLog table.
+| [ProductName]
 	
-Product_Name
+| Product_Name
 	
-Defined in BatchIDLog table.
-[RecipeID]
+| Defined in BatchIDLog table.
+| [RecipeID]
 	
-Recipe_ID
+| Recipe_ID
 	
-Defined in BatchIDLog table.
-[RecipeName]
+| Defined in BatchIDLog table.
+| [RecipeName]
 	
-Recipe_Name
+| Recipe_Name
 	
-Defined in BatchIDLog table.
-[RecipeVersion]
+| Defined in BatchIDLog table.
+| [RecipeVersion]
 	
-Recipe_Version
+| Recipe_Version
 	
-Defined in BatchIDLog table.
-[RecipeState]
+| Defined in BatchIDLog table.
+| [RecipeState]
 	
-Recipe_State
+| Recipe_State
 	
-Defined in BatchIDLog table.
-[RecipeType]
+| Defined in BatchIDLog table.
+| [RecipeType]
 	
-Recipe_Type
+| Recipe_Type
 	
-Defined in BatchIDLog table.
+| Defined in BatchIDLog table.
 
 Combined MaterialInputChange + BatchIDLog
 
-Template Placeholder
+| Template Placeholder
 	
-SQL Column Name
+| SQL Column Name
 	
-Description
-[TimeStamp]
+| Description
+| [TimeStamp]
 	
-DateTime
+| DateTime
 	
-Defined in MaterialInputChange table.
-[BatchID]
+| Defined in MaterialInputChange table.
+| [BatchID]
 	
-Batch_ID
+| Batch_ID
 	
-Defined in BatchIDLog table.
-[UniqueID]
+| Defined in BatchIDLog table.
+| [UniqueID]
 	
-Batch_Log_ID
+| Batch_Log_ID
 	
-Used to bind both MaterialInputChange and BatchIDLog tables. Serves as UniqueID of each batch.
-[Product]
+| Used to bind both MaterialInputChange and BatchIDLog tables. Serves as UniqueID of each batch.
+| [Product]
 	
-Product_Name or Product_ID
+| Product_Name or Product_ID
 	
-Defined in BatchIDLog table. This placeholder maps to Product_Name if non-empty, otherwise it maps to Product_ID.
-[Procedure]
+| Defined in BatchIDLog table. This placeholder maps to Product_Name if non-empty, otherwise it maps to Product_ID.
+| [Procedure]
 	
-Recipe_ID
+| Recipe_ID
 	
-Defined in BatchIDLog table.
-[Unit]
+| Defined in BatchIDLog table.
+| [Unit]
 	
-UnitOrConnection
+| UnitOrConnection
 	
-Defined in MaterialInputChange table.
-[UnitProcedure]
+| Defined in MaterialInputChange table.
+| [UnitProcedure]
 	
-UnitProcedure_ID
+| UnitProcedure_ID
 	
-Defined in MaterialInputChange table.
-[Operation]
+| Defined in MaterialInputChange table.
+| [Operation]
 	
-Operation_ID
+| Operation_ID
 	
-Defined in MaterialInputChange table.
-[Phase]
+| Defined in MaterialInputChange table.
+| [Phase]
 	
-Phase_ID
+| Phase_ID
 	
-Defined in MaterialInputChange table.
-[PhaseInstance]
+| Defined in MaterialInputChange table.
+| [PhaseInstance]
 	
-Index derived from Phase_Instance_ID
+| Index derived from Phase_Instance_ID
 	
-Defined in MaterialInputChange table. Provides phase instance index.
-[Parameter]
+| Defined in MaterialInputChange table. Provides phase instance index.
+| [Parameter]
 	
-N/A
+| N/A
 	
-Contains text: "MaterialInputChange"
-[Descript]
+| Contains text: "MaterialInputChange"
+| [Descript]
 	
-Material_Parameter
+| Material_Parameter
 	
-Defined in MaterialInputChange table.
-[Value]
+| Defined in MaterialInputChange table.
+| [Value]
 	
-New_Target_Qty
+| New_Target_Qty
 	
-Defined in MaterialInputChange table.
-[TargetValue]
+| Defined in MaterialInputChange table.
+| [TargetValue]
 	
-New_Target_Qty
+| New_Target_Qty
 	
-Defined in MaterialInputChange table.
-[OldValue]
+| Defined in MaterialInputChange table.
+| [OldValue]
 	
-Old_Target_Qty
+| Old_Target_Qty
 	
-Defined in MaterialInputChange table.
-[MaterialID]
+| Defined in MaterialInputChange table.
+| [MaterialID]
 	
-Material_ID
+| Material_ID
 	
-Defined in MaterialInput table.
-[UserID]
+| Defined in MaterialInput table.
+| [UserID]
 	
-DoneBy_User_ID
+| DoneBy_User_ID
 	
-Defined in MaterialInputChange table.
-[ReviewerID]
+| Defined in MaterialInputChange table.
+| [ReviewerID]
 	
-CheckBy_User_ID
+| CheckBy_User_ID
 	
-Defined in MaterialInputChange table.
-[Campaign]
+| Defined in MaterialInputChange table.
+| [Campaign]
 	
-Campaign_ID
+| Campaign_ID
 	
-Defined in BatchIDLog table.
-[Lot]
+| Defined in BatchIDLog table.
+| [Lot]
 	
-Lot_ID
+| Lot_ID
 	
-Defined in BatchIDLog table.
-[Train]
+| Defined in BatchIDLog table.
+| [Train]
 	
-Train_ID
+| Train_ID
 	
-Defined in BatchIDLog table.
-[BatchSize]
+| Defined in BatchIDLog table.
+| [BatchSize]
 	
-Batch_Size
+| Batch_Size
 	
-Defined in BatchIDLog table.
-[ProductID]
+| Defined in BatchIDLog table.
+| [ProductID]
 	
-Product_ID
+| Product_ID
 	
-Defined in BatchIDLog table.
-[ProductName]
+| Defined in BatchIDLog table.
+| [ProductName]
 	
-Product_Name
+| Product_Name
 	
-Defined in BatchIDLog table.
-[RecipeID]
+| Defined in BatchIDLog table.
+| [RecipeID]
 	
-Recipe_ID
+| Recipe_ID
 	
-Defined in BatchIDLog table.
-[RecipeName]
+| Defined in BatchIDLog table.
+| [RecipeName]
 	
-Recipe_Name
+| Recipe_Name
 	
-Defined in BatchIDLog table.
-[RecipeVersion]
+| Defined in BatchIDLog table.
+| [RecipeVersion]
 	
-Recipe_Version
+| Recipe_Version
 	
-Defined in BatchIDLog table.
-[RecipeState]
+| Defined in BatchIDLog table.
+| [RecipeState]
 	
-Recipe_State
+| Recipe_State
 	
-Defined in BatchIDLog table.
-[RecipeType]
+| Defined in BatchIDLog table.
+| [RecipeType]
 	
-Recipe_Type
+| Recipe_Type
 	
-Defined in BatchIDLog table.
+| Defined in BatchIDLog table.
 
 Combined MaterialOutput + BatchIDLog
 
