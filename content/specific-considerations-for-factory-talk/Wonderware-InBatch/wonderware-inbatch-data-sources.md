@@ -6,7 +6,6 @@ uid: wonderwareinbatchdatasources
 
 The Wonderware InBatch Batch Execution System (BES) version 8.1 SP1 and above stores batch data in Microsoft SQL Server. The interface reads data from the following tables:
 
-| ---------- | ---------------------- |
 | View/Table | Data read by interface |
 | ---------- | ---------------------- |
 | BatchIDLog | UniqueID, BatchID, start time, end time |
