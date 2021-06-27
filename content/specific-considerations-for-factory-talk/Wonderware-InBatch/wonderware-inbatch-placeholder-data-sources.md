@@ -6,7 +6,7 @@ uid: wonderwareinbatchplaceholderdatasources
 
 The following tables map placeholders to the data source table from which they are derived.
 
-Combined - BatchDetail + BatchIDLog
+## Combined - BatchDetail + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -35,7 +35,7 @@ Combined - BatchDetail + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined ProcessVar + BatchIDLog
+## Combined ProcessVar + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -67,7 +67,7 @@ Combined ProcessVar + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined ProcessVarChange + BatchIDLog
+## Combined ProcessVarChange + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -101,7 +101,7 @@ Combined ProcessVarChange + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined PhaseInstruction + BatchIDLog
+## Combined PhaseInstruction + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -128,7 +128,7 @@ Combined PhaseInstruction + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined OperatorComment + BatchIDLog
+## Combined OperatorComment + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -158,7 +158,7 @@ Combined OperatorComment + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined MaterialInput + BatchIDLog+BatchDetail
+## Combined MaterialInput + BatchIDLog+BatchDetail
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -195,7 +195,7 @@ Combined MaterialInput + BatchIDLog+BatchDetail
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined MaterialInputChange + BatchIDLog
+## Combined MaterialInputChange + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -229,7 +229,7 @@ Combined MaterialInputChange + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined MaterialOutput + BatchIDLog
+## Combined MaterialOutput + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -263,7 +263,7 @@ Combined MaterialOutput + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined TransitionExpression + BatchIDLog
+## Combined TransitionExpression + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -290,7 +290,7 @@ Combined TransitionExpression + BatchIDLog
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined BatchQuestion + BatchIDLog + CodeTable
+## Combined BatchQuestion + BatchIDLog + CodeTable
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -312,7 +312,7 @@ Combined BatchQuestion + BatchIDLog + CodeTable
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 | [RecipeType] | Recipe_Type | Defined in BatchIDLog table. |
 
-Combined Transition + BatchIDLog
+## Combined Transition + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
@@ -339,7 +339,7 @@ Combined Transition + BatchIDLog
 | [RecipeVersion] | Recipe_Verison | Defined in BatchIDLog table. |
 | [RecipeState] | Recipe_State | Defined in BatchIDLog table. |
 
-Combined EquipStatus + BatchIDLog
+## Combined EquipStatus + BatchIDLog
 
 | Template Placeholder | SQL Column Name | Description |
 | -------------------- | --------------- | ----------- |
