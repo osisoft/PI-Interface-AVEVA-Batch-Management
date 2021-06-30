@@ -1,1 +1,1 @@
-PI Interface for GE FactoryTalk Batch
+PI Interface for WonderWare InBatch

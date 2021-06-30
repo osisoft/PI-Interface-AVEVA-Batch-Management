@@ -1,3 +1,2 @@
-- name: PI Interface for Honeywell Factory Talk Batch
-  href: content/
-  topicHref: content/index.md
+- name: PI Interface for WonderWare InBatch
+  topicUid: BIF_Introduction
