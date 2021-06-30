@@ -8,9 +8,8 @@
 # Prerequisites
 - topicUid: BIF_InstallationPrerequisites # No edits
 # Installation Prerequisites
-- topicUid: BIF_InterfaceConfiguration # Modify for interface
+- topicUid: BIF_InterfaceConfiguration # Customized for WonderWare
   items: 
-  - topicUid: BIF_InstallationPrerequisites # No modifications required
   - topicUid: BIF_SecurityOverview # No modifications required
     items:
       - topicUid: BIF_AssignPermissions # No modifications required
