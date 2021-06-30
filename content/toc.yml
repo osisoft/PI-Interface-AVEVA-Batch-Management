@@ -13,6 +13,7 @@
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_PIServerConnectivity # No edits
+  - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_SecurityOverview # No modifications required
     items:
       - topicUid: BIF_AssignPermissions # No modifications required
@@ -20,7 +21,6 @@
       - topicUid: BIF_ConfigureSecurityForPIDataArchive # No modifications required
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No modifications required
   - topicUid: BIF_PIServerConnectivity # No modifications required
-  - topicUid: BIF_LoggingAndErrorMessages # No modifications required
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No modifications required
   items:
