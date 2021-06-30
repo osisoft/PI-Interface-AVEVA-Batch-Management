@@ -10,6 +10,7 @@
 # Installation Prerequisites
 - topicUid: BIF_InterfaceConfiguration # Customized for WonderWare
   items: 
+  - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_SecurityOverview # No modifications required
     items:
       - topicUid: BIF_AssignPermissions # No modifications required
