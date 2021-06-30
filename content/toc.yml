@@ -1,8 +1,10 @@
 # Introduction
-- topicUid: BIF_Introduction # Customized for Factorytalk
+- topicUid: BIF_Introduction # Customized for WonderWare
   items:
-  - topicUid: BIF_SupportedFeatures # Modify for interface
+  - topicUid: BIF_SupportedFeatures # Customized for WonderWare
   - topicUid: BIF_ReferenceManuals # Modify for interface
+# Overview
+- topicUid: BIF_Overview # Modify for Interface
 # Installation Prerequisites
 - topicUid: BIF_InterfaceConfiguration # Modify for interface
   items: 
