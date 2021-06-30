@@ -2,23 +2,26 @@
 uid: BIF_Overview
 ---
 
-# Introduction to [!include[interface](../includes/interface-name.md)]
+# Batch interface overview
 
-<!-- Customized for  -->
+<!-- Framework topic. Usually requires no edits. -->
 
-PI Interface for WonderWare InBatch is a scan-based interface that collects batch data from the Rockwell FactoryTalk system. It reads Event Journals (EVT files) and stores that data as event frames and elements in a PI Batch Database or a PI Asset Framework (PI AF) Database. 
+PI interfaces for Batch Execution Systems (BES) and Manufacturing Execution Systems (MES) are based on a common framework. For vendor-specific information, refer to the topic titled \"Specific considerations\...\" in this user guide.
 
-The interface also collects associated batch data in the form of PI Tags and PI Batch properties.
+**Note:** If you record batch process data directly to PI tags and do not use a BES, you can generate batch data from PI tag data using the PiBaGen or PIEFGEN utilities. For details, refer to the manuals for these applications. For details, refer to the manuals for these applications.
 
-In addition to collecting batch data, the interface populates the PI Point Database. 
+PI batch interfaces are scan-based interfaces that populate either
 
-PI Point creation, commonly known as tag creation and event population, is controlled by using tag templates. All modules, tags, tag aliases, and health tags are automatically created on the PI server. The Interface does not use the PI API Buffering Service, because batch and tag data is already buffered by the source historian databases. To maximize performance, the interface writes events to PI tags in bulk; that is, it writes all events per interface scan.
+* PI AF database (with event frames and elements) or 
+* PI Batch Database and PI Module Database (with batches and modules) based on events and data read from a data source. The interfaces can be configured to create and update PI points based on the data received. The interface cannot update the batch data source.               
 
-The flow of data in the interface is unidirectional: data can only be read from the specified data source and written to the PI Server.  This interface can read data from multiple batch data sources simultaneously.  By design, the interface does not edit or delete source data.
+**Note:** To use event frames, your PI batch interface must be version 3.x or higher.                   
 
-<!-- end comment-->
+Batch interfaces can read data from multiple data sources, which enables the PI server to handle scenarios in which different overlapping batch recipes can access the same unit in different stages of the production cycle. By acquiring data for the same time frame from multiple sources and collating it into a single time-ordered sequence, a single interface instance can capture the complete history of the batch process.
 
-<!-- Content below applies to all interfaces. -->
+Unlike other OSIsoft interfaces, batch-related interfaces do not use PI buffering. Batch data is persistent in the data source and not in danger of being lost. If connection to the PI server is lost, the interface continues to collect data from the data source, transmitting it to the PI server when the connection is reestablished. If for any reason the interface is unable to collect data, the data remains available in the database or event files and you can use recovery mode to fill in any data that was missed during the time the interface was down.
+
+**Note:**  These interfaces are designed for recipes that constrain a unit to run only one unit procedure at a time.
 
 Two different models are used to describe batch processes: 
 

@@ -2,9 +2,11 @@
 - topicUid: BIF_Introduction # Customized for WonderWare
   items:
   - topicUid: BIF_SupportedFeatures # Customized for WonderWare
-  - topicUid: BIF_ReferenceManuals # Modify for interface
+  - topicUid: BIF_ReferenceManuals # No edits
 # Overview
-- topicUid: BIF_Overview # Modify for Interface
+- topicUid: BIF_Overview # No edits
+# Prerequisites
+- topicUid: BIF_InstallationPrerequisites # No edits
 # Installation Prerequisites
 - topicUid: BIF_InterfaceConfiguration # Modify for interface
   items: 
