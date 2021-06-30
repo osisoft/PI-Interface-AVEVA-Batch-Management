@@ -18,8 +18,6 @@
   - topicUid: BIF_AssignPermissions # No edits
   - topicUid: BIF_ConfigureSecurityForPIAF # No edits
   - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
-- topicUid: BIF_CreateAndConfigureInterfaceInstance # No modifications required
-  - topicUid: BIF_PIServerConnectivity # No modifications required
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No modifications required
   items:
