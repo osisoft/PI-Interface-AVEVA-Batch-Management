@@ -12,6 +12,7 @@
   items: 
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_PIServerConnectivity # No edits
   - topicUid: BIF_SecurityOverview # No modifications required
     items:
       - topicUid: BIF_AssignPermissions # No modifications required
