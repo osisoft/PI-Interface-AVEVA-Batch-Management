@@ -31,6 +31,8 @@
     - topicUid: BIF_EquipmentHierarchy # No edits
     - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for WonderWare
   - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
+  - topicUid: BIF_FilterIncomingEvents # No edits
+  - topicUid: BIF_PropertyTemplates # Customized for WonderWare
   - topicUid: BIF_LinkingBESToMESBatchesUsingEventFrames # No modifications required
   - topicUid: BIF_TemplatesForMappingDataSourceEvents
 # Specific Considerations
