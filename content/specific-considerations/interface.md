@@ -2,6 +2,8 @@
 uid: BIF_Interface
 ---
 
-# [!include[interface](../includes/interface-name.md)]
+# [!include[interface](../includes/interface-name.md)] 
 
-<!-- Requires customization for interface -->
+<!-- Customized for WonderWare -->
+
+This interface enables you to capture history from Wonderware InBatch batch management system. 
