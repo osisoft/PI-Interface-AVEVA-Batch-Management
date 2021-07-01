@@ -42,11 +42,7 @@
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
   - topicUid: BIF_TranslateForeignLanguageData # No edits
 # Specific Considerations
-#
-# Note: Depending on inteface, this section either begins with BIF_Interface or BIF_WorkflowSupport
-#
 - topicUid: BIF_Interface # Modify for interface
-- topicUid: BIF_WorkflowSupport # Modify for interface
   items:
   - topicUid: BIF_DataSources # Modify for interface
   - topicUid: BIF_StartAndStopEvents # Modify for interface
@@ -78,10 +74,6 @@
   - topicUid: BIF_ServiceConfigurationTab # Modify for interface
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Modify for interface
-# Initialization File
-- topicUid: BIF_InitializationFileReference # Modify for interface
-  items: 
-  - topicUid: BIF_InitializationFileExamples # Modify for interface
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No modifications required
 # Event file monitor utility
