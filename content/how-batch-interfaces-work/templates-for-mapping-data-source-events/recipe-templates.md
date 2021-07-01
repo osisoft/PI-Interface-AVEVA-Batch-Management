@@ -4,7 +4,31 @@ uid: BIF_RecipeTemplates
 
 # Recipe templates
 
+<!-- Customized for WonderWare -->
+
 The interface includes a set of built-in default recipe templates that control the name assigned to each level in the batch hierarchy and the data stored at each level. To override the naming convention and data assigned to PI batches, unit batches, subbatches and event frames, you define recipe templates. To define recipe templates, launch the Event Frames Interface Manager and perform the following steps.
+
+<!-- 
+
+Mark Bishop 6/30/21: Removed settings from step 4 that don't apply to WonderWare.
+
+* **DefaultProperty[x].Name**
+
+    (Optional) Name of the event frame template attribute. Valid values are Recipe, BatchID, Product and Procedure. Interface defined defaults place Recipe and BatchID at x=1, Product at x=2, and Procedure at x=3.
+
+* **DefaultProperty[x].Value**
+
+    (Optional) Defines the event attribute expression that evaluates to a valid value.
+
+* **DefaultProperty[x].Trigger**
+
+    (Optional) Defines the expression that specifies which event(s) to use to get the value.
+
+    `[Event,value="Recipe Header"][descript,value="Product Code"]`
+
+* **DefaultProperty[x].UseFirstValue**
+
+    (Optional) Use the first matching event for the event frame to get the value if set to T or True. The default behavior is to use the last matching event. -->
 
 1. Go to the **Templates** page and navigate to the list of recipe templates.
 
@@ -52,50 +76,32 @@ The interface includes a set of built-in default recipe templates that control t
 
     The following placeholders are supported:
 
-    * AREA
-    * BATCHID
-    * DESCRIPT
-    * EU
-    * EVENT
-    * OPERATION
-    * PHASE
-    * PHASEMODULE
-    * PHASESTATE
-    * PHASESTEP
-    * PROCEDURE
-    * PROCESSCELL
-    * PVAL
-    * UNIQUEID
-    * UNIT
-    * UNITPROCEDURE
-    * USERID
-    * [*,value= "Field"]
-    * [*,value= "mask"]
+      * AREA
+      * BATCHID
+      * DESCRIPT
+      * EU
+      * EVENT
+      * OPERATION
+      * PHASE
+      * PHASEMODULE
+      * PHASESTATE
+      * PHASESTEP
+      * PROCEDURE
+      * PROCESSCELL
+      * PVAL
+      * UNIQUEID
+      * UNIT
+      * UNITPROCEDURE
+      * USERID
+      * [*,value= "Field"]
+      * [*,value= "mask"] <br><br>
 
 4. For event frames, you can configure the following additional settings.
 
     * **Descriptor**
     
         (Optional) Specifies the Event frame descriptor property for the particular source Recipe object.
-
-    * **DefaultProperty[x].Name**
-    
-        (Optional) Name of the event frame template attribute. Valid values are Recipe, BatchID, Product and Procedure. Interface defined defaults place Recipe and BatchID at x=1, Product at x=2, and Procedure at x=3.
-
-    * **DefaultProperty[x].Value**
-    
-        (Optional) Defines the event attribute expression that evaluates to a valid value.
-
-    * **DefaultProperty[x].Trigger**
-    
-        (Optional) Defines the expression that specifies which event(s) to use to get the value.
-
-        `[Event,value="Recipe Header"][descript,value="Product Code"]`
-
-    * **DefaultProperty[x].UseFirstValue**
-    
-        (Optional) Use the first matching event for the event frame to get the value if set to T or True. The default behavior is to use the last matching event.
-
+        
     * **Category**
     
         (Optional) For each recipe level, defines the event frame category. If the event that creates an event frame contains insufficient information, no category is assigned. To assign a category to an event frame after its creation, use Category[x].

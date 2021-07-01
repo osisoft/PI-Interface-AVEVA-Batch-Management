@@ -33,6 +33,9 @@
   - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
   - topicUid: BIF_FilterIncomingEvents # No edits
   - topicUid: BIF_PropertyTemplates # Customized for WonderWare
+  - topicUid: BIF_RecipeTemplates # Customized for WonderWare
+    items:
+    - topicUid: BIF_RecipeTemplateExamples # No edits
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
   - topicUid: BIF_TranslateForeignLanguageData # No edits
 # Specific Considerations
