@@ -3,6 +3,8 @@ uid: BIF_TagTemplateExamples
 ---
 # Tag template examples
 
+<!-- No edits -->
+
 ## Capture report events for phase modules
 
 ### Tag template

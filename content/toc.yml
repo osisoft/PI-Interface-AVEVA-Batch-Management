@@ -36,6 +36,9 @@
   - topicUid: BIF_RecipeTemplates # Customized for WonderWare
     items:
     - topicUid: BIF_RecipeTemplateExamples # No edits
+  - topicUid: BIF_TagTemplates # No edits
+    items:
+    - topicUid: BIF_TagTemplateExamples # No edits
   - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
   - topicUid: BIF_TranslateForeignLanguageData # No edits
 # Specific Considerations
