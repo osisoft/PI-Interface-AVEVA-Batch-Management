@@ -33,8 +33,8 @@
   - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
   - topicUid: BIF_FilterIncomingEvents # No edits
   - topicUid: BIF_PropertyTemplates # Customized for WonderWare
-  - topicUid: BIF_LinkingBESToMESBatchesUsingEventFrames # No modifications required
-  - topicUid: BIF_TemplatesForMappingDataSourceEvents
+  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
+  - topicUid: BIF_TranslateForeignLanguageData # No edits
 # Specific Considerations
 #
 # Note: Depending on inteface, this section either begins with BIF_Interface or BIF_WorkflowSupport
