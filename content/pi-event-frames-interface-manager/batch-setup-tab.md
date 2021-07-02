@@ -4,7 +4,7 @@ uid: BIF_BatchSetupTab
 
 # Batch Setup tab
 
-<!-- Topic requires customization for specific interface -->
+<!-- No edits -->
 
 Use the settings on this tab to identify the elements for various batch settings.
 

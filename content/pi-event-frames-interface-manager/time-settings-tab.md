@@ -4,7 +4,7 @@ uid: BIF_TimeSettingsTab
 
 # Time Settings tab 
 
-<!-- Topic requires customization for specific interface -->
+<!-- No edits -->
 
 You use the **Time Settings** tab to configure the settings that control how the interface handles loss of connectivity and how it processes data.
 
