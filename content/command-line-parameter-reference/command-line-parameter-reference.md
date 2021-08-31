@@ -113,6 +113,10 @@ Example: `/FailOverID="intf1"`
 
 Example: `/failovertag="Batch_FailoverTag"`
 
+### `/FOXBATCH`
+
+(Optional)  Enables compatability with the FOxBatch 1.x interface. This updates the batch start and stop triggers to be compatible with a Foxboro Batch system. More information can be found on __this topic__ *Link to following topic: https://github.com/wmurdock/PI-Interface-WonderWare-InBatch-Docs/blob/patch-1/content/specific-considerations/FoxBatchStartAndStop.md*
+
 ### `/host =host:port`
 
 (Required) Specifies the PI Data server where data is to be stored. Host is the IP address or domain name of the server node. Port is the port number for TCP/IP communication. The port is always 5450.
