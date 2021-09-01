@@ -1,1 +1,1 @@
-<PRODUCT_PATH>
+`%PIHOME%\PIPC\Interfaces\WWInBatch`
