@@ -61,6 +61,10 @@ In the last example, the first and second masks do not match, so the third mask 
 
 (Optional) Batches are cached in memory to enable the interface to capture events sent by the BES after the batch has closed. This setting specifies how long (in days) completed batches are cached. To specify fractions of a day, use decimal values. For example, /cachetime=7.5 releases completed batches when their end time is more than 7 days and 12 hours from the current time. The default value is 1 day, minimum is .042 days (approximately one hour), and maximum is 60 days.
 
+### `/collect415`
+
+Enables collection of WonderWare InBatch Action Code 415: Phase done.
+
 ### `/dac` 
 
 (Optional) Disable arbitration counters: directs the interface to release a unit on the first resource release event even if the number of acquire events is higher than number of release events. By default, the interface requires the number of acquire and release events for a unit to be the same.
@@ -90,6 +94,14 @@ Example:
 ### `/dpretc` 
 
 (Optional – event frames only) Disable propagation of referenced elements to children. By default, the interface propagates each event frame element reference to its children event frames.
+
+### `/duol`
+
+(Optional) Use phase start and stop events to create unit procedures, operations, and phases.
+
+### `/enableallstates`
+
+(Optional) Enables collection of all batch states at Batch, Unity, and Phase level.
 
 ### `/equipmentXML =<filepath>` 
 

@@ -89,9 +89,9 @@ Override the default data security of PI points created by the interface. Click 
 
 These settings apply uniquely to [!include[interface](../includes/product-long.md)] and no other OSIsoft PI interface.
 
-### Disable unit operation logic (/INCLUDEINCOMPLETEDATA)
+### Disable unit operation logic (/DUOL)
 
-Enables the collection of all unit procedures without and associated UNIT. Without this option unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
+Enables the ability to use phase start and stop events to create unit procedures, operations, and phases.
 
 ### Enable compatibility with FoxBatch (/FOXBATCH)
 
@@ -101,10 +101,10 @@ When this setting is enabled, combining the unit procedure name with the unit is
              
 example: `RECIPE[2].NAME=[PROCEDURE]_[UNIT]`
 
-### Enable collection of all batch states at Batch, Unity, and Phase level
+### Enable collection of all batch states at Batch, Unity, and Phase level (/ENABLEALLSTATES)
 
 Enables collection of all batch states at Batch, Unity, and Phase level.
 
-### Enable collection of WonderWare InBatch Action Code 415: Phase done
+### Enable collection of WonderWare InBatch Action Code 415: Phase done (/COLLECT415)
 
 Enables collection of WonderWare InBatch Action Code 415: Phase done.
