@@ -89,9 +89,9 @@ Override the default data security of PI points created by the interface. Click 
 
 These settings apply uniquely to [!include[interface](../includes/product-long.md)] and no other OSIsoft PI interface.
 
-### Disable unit operation logic
+### Disable unit operation logic (/INCLUDEINCOMPLETEDATA)
 
-Disables unit operation logic.
+Enables the collection of all unit procedures without and associated UNIT. Without this option unit procedures that do not have phase state that associated with a particular UNIT will not be shown as events in PI AF.
 
 ### Enable compatibility with FoxBatch (/FOXBATCH)
 
