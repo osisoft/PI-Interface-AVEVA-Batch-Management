@@ -55,6 +55,8 @@
   - topicUid: BIF_InterfaceSelectionTab # No edits
   - topicUid: BIF_ServerInformationTab # No edits
   - topicUid: BIF_SourceTab # Customized for WonderWare
+    items:
+    - topicUid: BIF_WindowsCredentialManagerAuthentication # Unmodified
   - topicUid: BIF_TemplatesTab # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
