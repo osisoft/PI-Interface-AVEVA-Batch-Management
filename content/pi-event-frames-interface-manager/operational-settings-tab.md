@@ -84,3 +84,27 @@ Override the default point security created by the interface. Click **Change** t
 ### Specify data security (/DATASEC=x)
 
 Override the default data security of PI points created by the interface. Click Change to open the Change security window. 
+
+## Interface-specific settings
+
+These settings apply uniquely to [!include[interface](../includes/product-long.md)] and no other OSIsoft PI interface.
+
+### Disable unit operation logic
+
+Disables unit operation logic.
+
+### Enable compatibility with FoxBatch (/FOXBATCH)
+
+Enables compatibility with the FoxBatch 1.x interface. This settings updates the batch start and stop triggers to be compatible with a Foxboro Batch system. For more information, see <xref:FoxBatchStartAndStopEvents>.
+
+When this setting is enabled, combining the unit procedure name with the unit is recommended. 
+             
+example: `RECIPE[2].NAME=[PROCEDURE]_[UNIT]`
+
+### Enable collection of all batch states at Batch, Unity, and Phase level
+
+Enables collection of all batch states at Batch, Unity, and Phase level.
+
+### Enable collection of WonderWare InBatch Action Code 415: Phase done
+
+Enables collection of WonderWare InBatch Action Code 415: Phase done.
