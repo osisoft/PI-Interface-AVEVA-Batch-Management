@@ -64,8 +64,6 @@
   - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for WonderWare
-# Event file monitor utility
-- topicUid: BIF_EventFileMonitorUtility # No edits
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
