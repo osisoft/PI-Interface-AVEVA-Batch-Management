@@ -1,3 +1,10 @@
+---
+uid: FoxBatchStartAndStop
+---
+
+# FoxBatch Start and Stop
+
+
 **I wasn't sure how to do this in GitHub (still a newbie), but we need a new subsection under the start and stop events section (https://osisoft-dev.zoominsoftware.io/bundle/pi-interface-wonderware-inbatch/page/specific-considerations/start-and-stop-events.html) for FOXBatch start and stops.**
 
 This subsection should still use tables to represent the fox batch start and stops denoted here: 
