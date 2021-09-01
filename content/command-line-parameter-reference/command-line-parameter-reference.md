@@ -115,7 +115,7 @@ Example: `/failovertag="Batch_FailoverTag"`
 
 ### `/FOXBATCH`
 
-(Optional) Enables compatibility with the FoxBatch 1.x interface. This updates the batch start and stop triggers to be compatible with a Foxboro Batch system. For more information, see <xref:FoxBatchStartAndStop>.
+(Optional) Enables compatibility with the FoxBatch 1.x interface. This updates the batch start and stop triggers to be compatible with a Foxboro Batch system. For more information, see <xref:FoxBatchStartAndStopEvents>.
 
 ### `/host =host:port`
 
