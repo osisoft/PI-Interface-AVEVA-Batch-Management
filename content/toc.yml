@@ -47,6 +47,7 @@
   - topicUid: BIF_DataSources # Customized for WonderWare
   - topicUid: BIF_Data # Customized for WonderWare
   - topicUid: BIF_StartAndStopEvents # Customized for WonderWare
+  - topicUid: FoxBatchStartAndStopEvents # WonderWare only
   - topicUid: BIF_TemplatePlaceholders # Customized for WonderWare
 # PI Event Frames Interface Manager
 - topicUid: BIF_PIEventFramesInterfaceManager # No edits
@@ -64,8 +65,6 @@
   - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for WonderWare
-# Event file monitor utility
-- topicUid: BIF_EventFileMonitorUtility # No edits
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary

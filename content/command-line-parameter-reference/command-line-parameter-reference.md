@@ -115,7 +115,7 @@ Example: `/failovertag="Batch_FailoverTag"`
 
 ### `/FOXBATCH`
 
-(Optional)  Enables compatability with the FOxBatch 1.x interface. This updates the batch start and stop triggers to be compatible with a Foxboro Batch system. More information can be found on __this topic__ *Link to following topic: https://github.com/wmurdock/PI-Interface-WonderWare-InBatch-Docs/blob/patch-1/content/specific-considerations/FoxBatchStartAndStop.md*
+(Optional) Enables compatibility with the FoxBatch 1.x interface. This updates the batch start and stop triggers to be compatible with a Foxboro Batch system. For more information, see <xref:FoxBatchStartAndStopEvents>.
 
 ### `/host =host:port`
 
