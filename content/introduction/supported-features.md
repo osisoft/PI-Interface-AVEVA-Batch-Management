@@ -27,7 +27,7 @@ uid: BIF_SupportedFeatures
 | Uses PI SDK | Yes: version 1.3.4.333 or higher required|
 | Uses AF SDK | Yes: version 2.5.x or higher required |
 | PINet String Support | N/A |
-| Source of Timestamps | BES (not system time on interface node) |
+| Source of Timestamps | WonderWare InBatch (not system time on interface node) |
 | History Recovery | Yes |
 | UniInt-based | No |
 | Disconnected Startup | No |
@@ -41,7 +41,7 @@ uid: BIF_SupportedFeatures
 
 ## Equipment arbitration events
 
-This PI Batch Interface runs against a BES or MES that supports equipment arbitration events. These events provide precise time stamps for the start and end times of unit batches. Individual installations of BES or MES that support equipment arbitration events may not be configured to provide such events. If the BES or MES supports equipment arbitration events but is configured not to provide them, use the following command line parameter: [/noarbitration](xref:BIF_CommandLineParameterReference#noarbitration). 
+[!include[interface](../includes/product-long.md)] runs against WonderWare InBatch, which supports equipment arbitration events. These events provide precise time stamps for the start and end times of unit batches. Individual installations of WonderWare InBatch that support equipment arbitration events may not be configured to provide such events. If your implementation of WonderWare InBatch supports equipment arbitration events but is configured not to provide them, use the following command line parameter: [/noarbitration](xref:BIF_CommandLineParameterReference#noarbitration). 
 
 Using `/noarbitration` ensures that the interface:
 
@@ -53,7 +53,7 @@ Using `/noarbitration` ensures that the interface:
 
 ## History recovery
 
-You can stop the interface without losing any data, because the data is persistent in the data source. Data recovery is limited by the history available from the BES, the number of licensed PI tags, and the size and time frame of the PI archives into which data is recovered.
+You can stop the interface without losing any data, because the data is persistent in the data source. Data recovery is limited by the history available from WonderWare InBatch, the number of licensed PI tags, and the size and time frame of the PI archives into which data is recovered.
 
 ## Device status tag
 
