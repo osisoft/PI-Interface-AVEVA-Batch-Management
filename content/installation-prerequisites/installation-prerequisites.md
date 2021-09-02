@@ -28,4 +28,4 @@ The interface can run on the same computer as WonderWare InBatch or on a dedicat
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     
-**Note:** To avoid potential interface configuration and startup issues, if you intend to run the interface as a Windows service and need to configure explicit login settings for your BES data sources, ensure that the account you configure for the service is the same account you use to run the configuration tool.
+**Note:** To avoid potential interface configuration and startup issues, if you intend to run the interface as a Windows service and need to configure explicit login settings for your WonderWare InBatch data sources, ensure that the account you configure for the service is the same account you use to run the configuration tool.
