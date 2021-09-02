@@ -57,6 +57,11 @@
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Unmodified
   - topicUid: BIF_TemplatesTab # No edits
+    items: 
+    - topicUid: BIF_PropertyTemplates # Unmodified
+    - topicUid: BIF_RecipeTemplatesEFIM # Unmodified
+    - topicUid: BIF_TagTemplatesEFIM # Unmodified
+    - topicUid: BIF_LinkTemplatesEFIM # Unmodified
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits

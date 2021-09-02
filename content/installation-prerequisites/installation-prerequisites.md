@@ -16,7 +16,7 @@ Before installing and configuring, ensure that the following prerequisites are m
 
 * Ensure that the system time on all these computers is correct.
 
-* Verify that your batch execution system (BES) is up and running and that the data source is accessible from the interface node.
+* Verify that WonderWare InBatch is up and running and that the data source is accessible from the interface node.
 
 To install the interface, download and run its setup kit. By default, the interface is installed in an interface-specific folder in the following location:
 
