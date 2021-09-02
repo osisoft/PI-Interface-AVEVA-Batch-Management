@@ -24,7 +24,9 @@ To install the interface, download and run its setup kit. By default, the interf
 
 The interface installation directory contains all the files and folders required to configure and run the interface, and includes example configurations.
 
-The interface can run on the same computer as WonderWare InBatch or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
+The interface can run on the same computer as the BES or on a dedicated node. To avoid affecting the performance of the PI Data Archive, do not install the interface on the same computer as the PI Data Archive. When installing the interface, reserve the C: drive for the operating system, and install the interface on another drive.
+
+If the data source is Microsoft SQL Server, you must install the Microsoft SQL Native Client on the interface node. You can download the client from the MSDN web site. If the data source is an Oracle database, you must install the corresponding version of Oracle Provider for OLE DB.
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     
