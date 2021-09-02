@@ -69,10 +69,6 @@ Enables collection of WonderWare InBatch Action Code 415: Phase done.
 
 (Optional) Disable arbitration counters: directs the interface to release a unit on the first resource release event even if the number of acquire events is higher than number of release events. By default, the interface requires the number of acquire and release events for a unit to be the same.
 
-### `/damcae` 
-
-(Optional) Ignore events from a DeltaV Event Chronicle (alarms & events) data source when creating or checking PI Module Database objects. If the module path defined for an AlarmTag[#].Alias entry contains the root node symbol ($), the interface checks the module path regardless of whether this option is enabled.
-
 ### `/datasec=<string>`
 
 (Optional) Specifies the security settings to be assigned to interface-generated tags. For PI Data Archive 3.4.375.99 or earlier, use owner, group, world format. Example: /datasec="o:rw g:r w:r" For PI Data Archive 3.4.380.36 or later, specify an access control list (ACL). 
