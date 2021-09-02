@@ -6,9 +6,9 @@ uid: BIF_CreateAndConfigureInterfaceInstance
 
 <!-- Static topic. No modifications usually required -->
 
-For each instance you create, settings are stored in a separate Windows command (.bat) file and an initialization (.ini) file in the interface installation folder. The batch file launches the interface, specifying settings as command line parameters. The initialization file also contains settings, and it defines templates that determine how data from the data source is stored in the PI System. To configure settings for interfaces, use the PI Event Frames Interface Manager. Use this tool even if you are configuring the interface to store data in the PI Batch Database rather than event frames.
+For each instance you create, settings are stored in a separate Windows command (.bat) file and an initialization (.ini) file in the [!include[%ProgramData%](../../includes/dir-long.md)] directory. The batch file launches the interface, specifying settings as command line parameters. The initialization file also contains settings, and it defines templates that determine how data from the data source is stored in the PI System. To configure settings for interfaces, use the PI Event Frames Interface Manager. Use this tool even if you are configuring the interface to store data in the PI Batch Database rather than event frames.
 
-A single batch interface instance can be configured to read from multiple data sources. This capability enables you to handle distributed batch processing scenarios, where multiple batch execution systems cooperate in the manufacturing of a single batch. If you configure multiple data sources, all data sources must be the same type, either event files or SQL databases.
+A single batch interface instance can be configured to read from multiple data sources. This capability enables you to handle distributed batch processing scenarios, where multiple batch execution systems cooperate in the manufacturing of a single batch.
 
 **Note:** Each instance of an event frame generating interface, like PI EFGen, must run under a unique service account. For additional information, sign into the OSIsoft customer portal to read this Knowledge Base article on PI EFGen service accounts.
 
@@ -26,7 +26,7 @@ To create an instance of the interface, perform the following steps using PI Eve
 
     If you intend to create event frames, check **Create event  frames** and specify the PI Asset server and AF database.
 
-5. On the **Source** tab, configure the settings for the data source (the BES).
+5. On the **Source** tab, configure the settings for the data source (WonderWare InBatch).
 
     Note that you can configure multiple data sources for the same interface instance.
     
