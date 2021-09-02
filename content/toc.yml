@@ -8,7 +8,6 @@
 # Installation Prerequisites
 - topicUid: BIF_InstallationPrerequisites # No edits
   items: 
-  - topicUid: BIF_InterfaceConfiguration # Customized for WonderWare
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_ConfigureInstancesForFailover # No edits
   - topicUid: BIF_PIServerConnectivity # No edits
