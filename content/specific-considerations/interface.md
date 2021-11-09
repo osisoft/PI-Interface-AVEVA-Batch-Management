@@ -2,7 +2,7 @@
 uid: BIF_Interface
 ---
 
-# [!include[interface](../includes/product-long.md)] 
+# [!include[interface](../includes/product-long.md)]
 
 <!-- Customized for WonderWare -->
 

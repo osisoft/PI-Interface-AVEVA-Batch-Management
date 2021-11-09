@@ -66,6 +66,7 @@
   - topicUid: BIF_BatchSetupTab # No edits
   - topicUid: BIF_MergeSetupTab # No edits
   - topicUid: BIF_OperationalSettingsTab # Customized for WonderWare
+  - topicUid: BIF_MonitorTagSetupTab # No modifications required
   - topicUid: BIF_TestConfigurationTab # No edits
   - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters

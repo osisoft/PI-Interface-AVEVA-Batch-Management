@@ -2,7 +2,7 @@
 uid: BIF_Introduction
 ---
 
-# Introduction to [!include[interface](../includes/product-long.md)] [!include[version](../includes/product-version.md)]
+# Introduction to [!include[interface](../includes/product-long.md)] [!include[interface](../includes/product-version.md)]
 
 <!-- Customized for WonderWare -->
 
