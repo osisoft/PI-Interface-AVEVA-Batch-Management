@@ -71,6 +71,10 @@
   - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for WonderWare
+# Initialization File
+- topicUid: BIF_InitializationFileReference # Modify for interface
+  items: 
+  - topicUid: BIF_InitializationFileExamples # Modify for interface
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
