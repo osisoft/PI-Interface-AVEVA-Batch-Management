@@ -10,13 +10,11 @@ Templates map data from the data source to PI tags, batches and event frames. Wh
 
 You can define the following types of templates:
 
-<!-- Update list for interface -->
-
+<!-- Update list for interface - Removed alarm tag and link-->
 
 * **Property:** Maps data to batch properties in the PI Batch Database or event frame attributes in PI AF.
 * **Recipe:** Defines the information stored and the naming convention used at each level in the generated batch hierarchy.
 * **Tag:** Creates and updates PI tags, specifying how they are named and what data is written to them.
-* **Link:** DCS Link templates allow relationships between event frames from separate interfaces to be defined. The trigger identifies the appropriate event and the value specifies the name of the target batch level event frame
 
 **Note:** When multiple property and recipe templates are defined that can set the same event frame attribute value using the same event, property templates take precedence. The following precedence order is observed for conflicting properties that set the same event frame attribute value:
 
