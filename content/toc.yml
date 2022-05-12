@@ -60,7 +60,6 @@
     - topicUid: BIF_PropertyTemplates # Unmodified
     - topicUid: BIF_RecipeTemplatesEFIM # Unmodified
     - topicUid: BIF_TagTemplatesEFIM # Unmodified
-    - topicUid: BIF_LinkTemplatesEFIM # Unmodified
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
   - topicUid: BIF_BatchSetupTab # No edits
@@ -71,6 +70,10 @@
   - topicUid: BIF_ServiceConfigurationTab # No edits
 # Command Line Parameters
 - topicUid: BIF_CommandLineParameterReference # Customized for WonderWare
+# Initialization File
+- topicUid: BIF_InitializationFileReference # Modify for interface
+  items: 
+  - topicUid: BIF_InitializationFileExamples # Modify for interface
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits
 # Glossary
