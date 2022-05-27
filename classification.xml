@@ -125,12 +125,12 @@
    <Row ss:Height="14.5">
     <Cell><Data ss:Type="String">MAP</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">interface</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-WonderWare-InBatch_4.3.4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-WonderWare-InBatch_4.3.5</Data></Cell>
    </Row>
    <Row ss:Height="14.5">
     <Cell><Data ss:Type="String">apply-ALL</Data></Cell>
     <Cell ss:Index="3"><Data ss:Type="String">interface</Data></Cell>
-    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-WonderWare-InBatch_4.3.4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">PI-Interface-for-WonderWare-InBatch_4.3.5</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">default</Data></Cell>
