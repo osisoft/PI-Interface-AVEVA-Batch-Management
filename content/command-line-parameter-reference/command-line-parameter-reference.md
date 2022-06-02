@@ -399,6 +399,12 @@ If `/UBR = false` the interface will use STATE CHANGE to control the start and e
 
 Provided for backward compatibility with version 1.0.0.0 of the interface. |
 
+### `/uidlist=<list>`
+
+(Optional) Recover specified manufacturing orders, then exit. Specify a comma-separated list of unique IDs for the manufacturing orders to be recovered. This parameter overrides any settings specified for the /rst and /ret recovery switches.
+
+Example: /uidlist=MOKey#1, MOKey#2
+
 ### `/WEBSRVDISABLED=[true | false]` 
 
 (Optional) If not added it will default to false.
