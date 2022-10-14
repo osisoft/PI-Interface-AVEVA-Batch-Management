@@ -16,7 +16,7 @@ Before installing and configuring, ensure that the following prerequisites are m
 
 * Ensure that the system time on all these computers is correct.
 
-* Verify that WonderWare InBatch is up and running and that the data source is accessible from the interface node.
+* Verify that AVEVA Batch Management is up and running and that the data source is accessible from the interface node.
 
 To install the interface, download and run its setup kit. By default, the interface is installed in an interface-specific folder in the following location:
 
@@ -30,4 +30,4 @@ If the data source is Microsoft SQL Server, you must install the Microsoft SQL N
 
 To configure the interface, use the PI Event Frame Manager configuration tool.
     
-**Note:** To avoid potential interface configuration and startup issues, if you intend to run the interface as a Windows service and need to configure explicit login settings for your WonderWare InBatch data sources, ensure that the account you configure for the service is the same account you use to run the configuration tool.
+**Note:** To avoid potential interface configuration and startup issues, if you intend to run the interface as a Windows service and need to configure explicit login settings for your AVEVA Batch Management data sources, ensure that the account you configure for the service is the same account you use to run the configuration tool.
