@@ -1,1 +1,1 @@
-`%ProgramData%\OSIsoft\Interfaces\WWInBatch`
+`%ProgramData%\OSIsoft\Interfaces\AVEVABatchManagement`
