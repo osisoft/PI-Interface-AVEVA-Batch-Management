@@ -23,7 +23,7 @@ The following tables map placeholders to the data source table from which they a
 | [Operation] | Operation_ID | Defined in BatchDetail table. |
 | [Phase] | Phase_ID | Defined in BatchDetail table. |
 | [PhaseInstance] | Index derived from Phase_Instance_ID | Defined in BatchDetail table. Provides phase instance index. |
-| [PhaseUID] | Phase_Incident_ID | Defined in BatchDetail table. All phase states under this phase will have the same PhaseUID in the WWInBatch database. |
+| [PhaseUID] | Phase_Incident_ID | Defined in BatchDetail table. All phase states under this phase will have the same PhaseUID in the AVEVABatchManagement database. |
 | [UserID] | DoneBy_User_ID | Defined in BatchDetail table. |
 | [Campaign] | Campaign_ID | Defined in BatchIDLog table. |
 | [Lot] | Lot_ID | Defined in BatchIDLog table. |
