@@ -26,7 +26,7 @@ To create an instance of the interface, perform the following steps using PI Eve
 
     If you intend to create event frames, check **Create event  frames** and specify the PI Asset server and AF database.
 
-5. On the **Source** tab, configure the settings for the data source (WonderWare InBatch).
+5. On the **Source** tab, configure the settings for the data source (AVEVA Batch Management).
 
     Note that you can configure multiple data sources for the same interface instance.
     

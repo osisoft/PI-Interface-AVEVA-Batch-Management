@@ -109,6 +109,6 @@ example: `RECIPE[2].NAME=[PROCEDURE]_[UNIT]`
 
 Enables collection of all batch states at Batch, Unity, and Phase level.
 
-### Enable collection of WonderWare InBatch Action Code 415: Phase done (/COLLECT415)
+### Enable collection of AVEVA Batch Management Action Code 415: Phase done (/COLLECT415)
 
-Enables collection of WonderWare InBatch Action Code 415: Phase done.
+Enables collection of AVEVA Batch Management Action Code 415: Phase done.

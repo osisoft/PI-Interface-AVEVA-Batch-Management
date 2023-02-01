@@ -1,1 +1,1 @@
-PI Interface for WonderWare InBatch
+PI Interface for AVEVA Batch Management

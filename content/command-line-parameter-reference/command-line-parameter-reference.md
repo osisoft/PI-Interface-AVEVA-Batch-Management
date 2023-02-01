@@ -63,7 +63,7 @@ In the last example, the first and second masks do not match, so the third mask 
 
 ### `/collect415`
 
-Enables collection of WonderWare InBatch Action Code 415: Phase done.
+Enables collection of AVEVA Batch Management Action Code 415: Phase done.
 
 ### `/dac` 
 

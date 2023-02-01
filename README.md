@@ -1,6 +1,6 @@
-# PI Interface for WonderWare InBatch Docs
+# PI Interface for AVEVA Batch Management
 
-User documentation for PI Interface for WonderWare InBatch.
+User documentation for PI Interface for AVEVA Batch Management.
 
 This repository consumes another repo as a subtree within the `/content` directory: https://github.com/osisoft/PI-Batch-Interface-Doc-Framework. To update the subtree, enter the following command:
 
