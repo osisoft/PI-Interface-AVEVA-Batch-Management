@@ -6,11 +6,11 @@ uid: ReleaseNotes
 
 PI Interface for AVEVA Batch Management 
 
-**Version 5.1.1.4**
+**Version 5.1.1.10**
 
 ## Overview
 
-AVEVA Batch Management collects data from the AVEVA Batch Management Batch Execution System version 8.1 SP1 and above. This interface automatically creates batches in the PI Event Frames in PI AF based on data from the AVEVA Batch Management SQL database. The interface automatically creates PI Tags and an AF Hierarchy to capture context around your process data.
+PI Interface for AVEVA Batch Management collects data from the AVEVA Batch Management Batch Execution System version 8.1 SP1 and above. This interface automatically creates batches in the PI Event Frames in PI AF based on data from the AVEVA Batch Management SQL database. The interface automatically creates PI Tags and an AF Hierarchy to capture context around your process data.
 
 The release is a maintenance release that focuses on improving the stability and usability of the interface.
 
@@ -51,18 +51,15 @@ This section lists items that were resolved or added in this release of PI Inter
 | 23793     | The Event log source will be created as part of the setup process. |
 | 23794     | PI Interface for Wonderware InBatch is now AVEVA Batch Management. |
 | 24361     | All boost library calls were replaced with native C++ and STL functions. |
-| 24594     | Replaced boost library find and replace string function with new custom function. |
-| 24616     | Removed dependence on boost libraries for file and path operations. |
-| 24643     | Replaced boost tokenizer call as part of removing usage of boost library. |
 | 24661     | Boost is no longer used for JSON processing. Microsoft Net library replaces it. |
 | 24781     | The interface setup kit is using the same GUID for all the interface. This causes trouble when installing another batch interface on the same machine. Fixed to use different GUID for each interface. |
+| 24847     | SQL Native Client is no longer supported, and is now replaced with OLEDB for all supported batch interfaces. |
 | 49860     | Configuration "USECLOSEEVENTSONLY" when checked in the PI Event Frame Manager will work properly. |
-| 57482     | Configuration "USECLOSEEVENTSONLY" when checked in the PI Event Frame Manager will work properly. |
 | 67289     | UniRecord exports now include all UniRecord fields. |
-| 67298     | Event sorting is faster and memory consumption is better managed during event queuing. |
 | 67650     | Event sorting is faster and memory consumption is better managed during event queuing. |
 | 67926     | Interface will not allow Batch events with a zero start time. |
 | 68207     | BifConfig will now store SCAN values as low as one second without complaint. |
+| 68907     | Default account to setup interface service is now Default Virtual User (NT Service/<Interface Instance Name>). |
 
 ## Known Issues
 
@@ -94,20 +91,20 @@ This interface is a 64-bit application.
 | Microsoft Visual C++ 2015-2019 Redistributable (x86) | 14.21.27702 |
 | Microsoft Visual C++ 2015-2019 Redistributable (x64) | 14.21.27702 |
 | PI AF Client 2018 SP3 Patch 3 | 2.10.9.593 |
-| AVEVA Batch Management (AVEVABatchManagement) Test | 5.1.1.4 |
+| AVEVA Batch Management (AVEVABatchManagement) | 5.1.1.10 |
 | PI Network Subsystem Support (PINS)* | 3.4.435.538 |
   
 *The PI Network Subsystem Support (PINS) component is not displayed on the installation welcome screen if the PI Data Archive is installed already.
 
 ### Installation and Upgrade
 
-The AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.1.4_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
+The PI Interface for AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.1.4_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
-For additional information regarding the PI Interface for Emerson DeltaV Batch installation, please see the Installation instructions portion of the PI Interface for Emerson DeltaV Batch (PIBatchGuide) User Guide. This user guide is available for download from the [OSIsoft Customer Portal](https://my.osisoft.com/).
+For additional information regarding the PI Interface for AVEVA Batch Management installation, please see the Installation instructions portion of the PI Interface for AVEVA Batch Management (PIBatchGuide) User Guide. This user guide is available for download from the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
 ### Uninstalling PI Web API
 
-The PI Interface for Emerson DeltaV Batch Interface can be uninstalled using the *Programs and Features* list accessible from the *Windows Control Panel*. After accessing the Programs and Features list, select the entry named *AVEVA Batch Management (AVEVABatchManagement)* and then select *Uninstall* from the menu.
+The PI Interface for AVEVA Batch Management can be uninstalled using the *Programs and Features* list accessible from the *Windows Control Panel*. After accessing the Programs and Features list, select the entry named *AVEVA Batch Management (AVEVABatchManagement)* and then select *Uninstall* from the menu.
 
 ## Security Information and Guidance
 
