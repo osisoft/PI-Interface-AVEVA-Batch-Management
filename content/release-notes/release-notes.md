@@ -98,7 +98,7 @@ This interface is a 64-bit application.
 
 ### Installation and Upgrade
 
-The PI Interface for AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.1.4_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
+The PI Interface for AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.1.10_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
 For additional information regarding the PI Interface for AVEVA Batch Management installation, please see the Installation instructions portion of the PI Interface for AVEVA Batch Management (PIBatchGuide) User Guide. This user guide is available for download from the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
@@ -106,46 +106,10 @@ For additional information regarding the PI Interface for AVEVA Batch Management
 
 The PI Interface for AVEVA Batch Management can be uninstalled using the *Programs and Features* list accessible from the *Windows Control Panel*. After accessing the Programs and Features list, select the entry named *AVEVA Batch Management (AVEVABatchManagement)* and then select *Uninstall* from the menu.
 
-## Security Information and Guidance
+## Security information and guidance
 
-### OSIsoft's Commitment
+OSIsoft is [committed to releasing secure products](https://docs.osisoft.com/bundle/security-commitment-and-disclosure-standards/page/securitycommitmentanddisclosurestandards.html). This section is intended to provide relevant security-related information to guide your installation or upgrade decision.  
 
-Because the PI System often serves as a barrier protecting control system networks and mission-critical infrastructure assets, OSIsoft is committed to (1) delivering a high-quality product and (2) communicating clearly what security issues have been addressed. This release of the AVEVA Batch Management is the highest-quality and most secure version of the AVEVA Batch Management released to date. OSIsoft's commitment to improving the PI System is ongoing, and each future version should raise the quality and security bar even further.
+OSIsoft [proactively discloses](https://docs.osisoft.com/bundle/security-commitment-and-disclosure-standards/page/securitycommitmentanddisclosurestandards.html#vulnerability-communication) aggregate information about the number and severity of security vulnerabilities addressed in each release. The tables below provide an overview of security issues addressed and their relative severity based on [standard scoring](https://docs.osisoft.com/bundle/security-commitment-and-disclosure-standards/page/securitycommitmentanddisclosurestandards.html#vulnerability-scoring). 
 
-### Vulnerability Communication
-
-The practice of publicly disclosing internally discovered vulnerabilities is consistent with the [Common Industrial Control System Vulnerability Disclosure
-Framework](https://us-cert.cisa.gov/sites/default/files/ICSJWG-Archive/ICSJWG_Vulnerability_Disclosure_Framework_Final_1.pdf) developed by the [Industrial Control Systems Joint Working Group (ICSJWG)](https://us-cert.cisa.gov/ics/Industrial-Control-Systems-Joint-Working-Group-ICSJWG). Despite the increased risk posed by greater transparency, OSIsoft is sharing this information to help you make an informed decision about when to upgrade to ensure your PI System has the best available protection.
-
-For more information, refer to [OSIsoft's Ethical Disclosure policy](https://www.osisoft.com/terms-and-conditions/ethical-disclosure).
-
-To report a security vulnerability, refer to:
-[https://www.osisoft.com/terms-and-conditions/report-security](https://www.osisoft.com/terms-and-conditions/report-security)
-
-### Vulnerability Scoring
-
-OSIsoft has selected the [Common Vulnerability Scoring System (CVSS)](https://www.first.org/cvss/v2/guide) to quantify the severity of security vulnerabilities for disclosure. To calculate the CVSS scores, OSIsoft uses the [National Vulnerability Database (NVD) calculator](https://nvd.nist.gov/vuln-metrics/cvss/v2-calculator?calculator&version=2) maintained by the National Institute of Standards and Technology (NIST). 
-
-OSIsoft uses Critical, High, Medium and Low categories to aggregate the CVSS Base scores. This removes some of the opinion related errors of CVSS scoring. As noted in the [CVSS specification](https://www.first.org/cvss/specification-document), Base scores range from 0 for the lowest severity to 10 for the highest severity.
-
-### Overview of New Vulnerabilities Found or Fixed
-
-This section is intended to provide relevant security-related information to guide your installation or upgrade decision. OSIsoft proactively discloses aggregate information about the number and severity of the security vulnerabilities that are fixed in this release of the AVEVA Batch Management.
-
-No security-related information is applicable to this release.
-
-## Technical Support and Resources
-
-For technical assistance, contact OSIsoft Technical Support at +1 510-297-5828 or log a case through the OSIsoft Customer Portal. Additionally, the Contact Us
-page on the portal offers contact options for customers outside of the United States. 
-
-When you contact OSIsoft Technical Support, be prepared to provide this information:
-
-- Product name, version, and build numbers
-- Computer platform (CPU type, operating system, and version number)
-- Time that the difficulty started
-- Log files at that time
-- Details of any environment changes prior to the start of the issue
-- Summary of the issue, including any relevant log files during the time the issue occurred
-
-The [PI Square](https://pisquare.osisoft.com/) community has resources to help you with your technical questions. [PI Developers Club](https://pisquare.osisoft.com/community/developers-club) program offers specific services to developers and system integrators.
+There are no security vulnerabilities in this release. 
