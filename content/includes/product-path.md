@@ -1,1 +1,1 @@
-`%PIHOME%\PIPC\Interfaces\WWInBatch`
+`%PIHOME%\PIPC\Interfaces\AVEVABatchManagement`
