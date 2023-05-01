@@ -9,7 +9,9 @@
 - topicUid: BIF_InstallationPrerequisites # No edits
   items: 
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
-  - topicUid: BIF_ConfigureInstancesForFailover # No edits
+  - topicUid: BIF_InterfaceFailover
+    items:  
+      - topicUid: BIF_ConfigureInstancesForFailover
   - topicUid: BIF_PIServerConnectivity # No edits
   - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_SecurityOverview # No edits
