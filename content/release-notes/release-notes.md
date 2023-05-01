@@ -10,9 +10,9 @@ PI Interface for AVEVA Batch Management
 
 ## Overview
 
-PI Interface for AVEVA Batch Management collects data from the AVEVA Batch Management Batch Execution System version 8.1 SP1 and above. This interface automatically creates batches in the PI Event Frames in PI AF based on data from the AVEVA Batch Management SQL database. The interface automatically creates PI Tags and an AF Hierarchy to capture context around your process data.
+PI Interface for AVEVA Batch Management (formerly PI Interface for WonderWare InBatch) collects data from an AVEVA Batch Management Batch Execution System. The interface supports AVEVA Batch Management versions 8.1 SP1 and above. This interface creates Event Frames in PI AF based on data from AVEVA Batch Management. PI Tags and an AF Hierarchy are automatically created to capture additional context around your process data.
 
-The release is a maintenance release that focuses on improving the stability and usability of the interface.
+Version 5.1.5.1 of the PI Interface for AVEVA Batch Management removes the ability to create batches in the PI Batch Database – customers should leverage the capability to create Event Frames in PI AF. 
 
 ## Enhancements
 
@@ -20,7 +20,7 @@ There are no enhancements for this release.
 
 ## Fixes
 
-This section lists items that were resolved or added in this release of PI Interface for Emerson Delta V.
+This section lists items that were resolved or added in this release of PI Interface for AVEVA Batch Management.
 
 | Work Item | Description                                                                     |
 | :-------- | :------------------------------------------------------------------------------ |
