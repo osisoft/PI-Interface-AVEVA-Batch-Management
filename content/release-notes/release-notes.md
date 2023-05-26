@@ -6,13 +6,13 @@ uid: ReleaseNotes
 
 PI Interface for AVEVA Batch Management 
 
-**Version 5.1.5.1**
+**Version 5.1.5.5**
 
 ## Overview
 
 PI Interface for AVEVA Batch Management (formerly PI Interface for WonderWare InBatch) collects data from an AVEVA Batch Management Batch Execution System. The interface supports AVEVA Batch Management versions 8.1 SP1 and above. This interface creates Event Frames in PI AF based on data from AVEVA Batch Management. PI Tags and an AF Hierarchy are automatically created to capture additional context around your process data.
 
-Version 5.1.5.1 of the PI Interface for AVEVA Batch Management removes the ability to create batches in the PI Batch Database – customers should leverage the capability to create Event Frames in PI AF. 
+Version 5.1.5.5 of the PI Interface for AVEVA Batch Management removes the ability to create batches in the PI Batch Database – customers should leverage the capability to create Event Frames in PI AF. 
 
 ## Enhancements
 
@@ -66,6 +66,7 @@ This section lists items that were resolved or added in this release of PI Inter
 | 72522     | Interface stability improvements have been completed. |
 | 73489     | Interface no longer hangs due to locale thread lock issue. |
 | 73498     | Setup kit creates the event source name under application logs to match with Interface application name which is used by logging framework. |  
+| 75880     | Procedure level recipe events are processed correctly and have no missing end times. |
 
 ## Known Issues
 
@@ -91,15 +92,15 @@ This interface is a 64-bit application.
 | :-------- | :------------------ |
 | Microsoft Visual C++ 2015-2019 Redistributable (x86) | 14.21.27702 |
 | Microsoft Visual C++ 2015-2019 Redistributable (x64) | 14.21.27702 |
-| PI AF Client 2018 SP3 Patch 3 | 2.10.9.593 |
-| AVEVA Batch Management (AVEVABatchManagement) | 5.1.5.1 |
+| PI AF Client 2018 SP3 Patch 4 | 2.10.10.2539 |
+| AVEVA Batch Management (AVEVABatchManagement) | 5.1.5.5 |
 | PI Network Subsystem Support (PINS)* | 3.4.435.538 |
   
 *The PI Network Subsystem Support (PINS) component is not displayed on the installation welcome screen if the PI Data Archive is installed already.
 
 ### Installation and Upgrade
 
-The PI Interface for AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.5.1_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
+The PI Interface for AVEVA Batch Management can be installed or upgraded using the AVEVA Batch Management installation kit, **AVEVABatchManagement_5.1.5.5_.exe**. This installation kit can be obtained by using the How to Download Products link listed in the OSIsoft Customer Portal How To's list. This list is located on the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
 For additional information regarding the PI Interface for AVEVA Batch Management installation, please see the Installation instructions portion of the PI Interface for AVEVA Batch Management (PIBatchGuide) User Guide. This user guide is available for download from the [OSIsoft Customer Portal](https://my.osisoft.com/).
 
