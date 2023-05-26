@@ -77,6 +77,11 @@
 # Initialization File
 - topicUid: BIF_InitializationFileReference # Modify for interface
   items: 
+  - topicUid: BIF_sourcetemplatesettings
+  - topicUid: BIF_Recipetemplates
+  - topicUid: BIF_Tagtemplates
+  - topicUid: BIF_Propertytemplates
+  - topicUid: BIF_Translationtemplates
   - topicUid: BIF_InitializationFileExamples # Modify for interface
 # Diagnostic Point Reference
 - topicUid: BIF_DiagnosticPointReference # No edits

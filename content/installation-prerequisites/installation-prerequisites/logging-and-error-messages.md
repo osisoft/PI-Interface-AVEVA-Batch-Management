@@ -5,6 +5,7 @@ uid: BIF_LoggingAndErrorMessages
 # Logging and error messages
 
 <!-- Static topic. No modifications usually required (REVISED AUGUST 2022)-->
+<!-- Static topic. No modifications usually required (REVISED AUGUST 2022-->
 
 The interface logs operational messages during interface startup, data collection and recovery. Additional messages are logged if you enable debugging. 
 
