@@ -12,7 +12,9 @@ PI Interface for AVEVA Batch Management
 
 PI Interface for AVEVA Batch Management (formerly PI Interface for WonderWare InBatch) collects data from an AVEVA Batch Management Batch Execution System. The interface supports AVEVA Batch Management versions 8.1 SP1 and above. This interface creates Event Frames in PI AF based on data from AVEVA Batch Management. PI Tags and an AF Hierarchy are automatically created to capture additional context around your process data.
 
-Version 5.1.5.5 of the PI Interface for AVEVA Batch Management removes the ability to create batches in the PI Batch Database – customers should leverage the capability to create Event Frames in PI AF. 
+The 5.1.5.5 release of PI Interface for AVEVA Batch Management internally replaces PI SDK with AF SDK - this improves the security, robustness, and communication capabilities of the interface. As a result, this interface only writes Event Frames to a PI AF Server, and disallows creating PI Batches in the PI Batch Database.
+
+Users creating PI Batches in the PI Batch Database need to migrate to Event Frames in order to utilize this version of the interface.  
 
 ## Enhancements
 
@@ -50,8 +52,6 @@ This section lists items that were resolved or added in this release of PI Inter
 | 23747     | A delay (/DELAYBUFFER) was added so the source data is available at the time of query. This helps event start times. |
 | 23793     | The Event log source will be created as part of the setup process. |
 | 23794     | PI Interface for Wonderware InBatch is now AVEVA Batch Management. |
-| 24361     | All boost library calls were replaced with native C++ and STL functions. |
-| 24661     | Boost is no longer used for JSON processing. Microsoft Net library replaces it. |
 | 24781     | The interface setup kit is using the same GUID for all the interface. This causes trouble when installing another batch interface on the same machine. Fixed to use different GUID for each interface. |
 | 24847     | SQL Native Client is no longer supported, and is now replaced with OLEDB for all supported batch interfaces. |
 | 49860     | Configuration "USECLOSEEVENTSONLY" when checked in the PI Event Frame Manager will work properly. |

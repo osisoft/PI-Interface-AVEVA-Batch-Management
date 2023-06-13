@@ -3,41 +3,44 @@
   items:
   - topicUid: BIF_SupportedFeatures # Customized for WonderWare
   - topicUid: BIF_ReferenceManuals # No edits
-# Overview
-- topicUid: BIF_Overview # No edits
+  - topicUid: BIF_Overview # No edits
 # Installation Prerequisites
-- topicUid: BIF_InstallationPrerequisites # No edits
+- name: Installation  
   items: 
+  - topicUid: BIF_InstallationPrerequisites # No edits
+  - topicUid: BIF_SecurityOverview # No edits
+    items:
+      - topicUid: BIF_AssignPermissions # No edits
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_InterfaceFailover
     items:  
       - topicUid: BIF_ConfigureInstancesForFailover
   - topicUid: BIF_PIServerConnectivity # No edits
   - topicUid: BIF_LoggingAndErrorMessages # No edits
-  - topicUid: BIF_SecurityOverview # No edits
-  - topicUid: BIF_AssignPermissions # No edits
+  - topicUid: BIF_InterfaceConfiguration
   - topicUid: BIF_ConfigureSecurityForPIAF # No edits
   - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
-  - topicUid: BIF_InterfaceModes # No edits
-  - topicUid: BIF_HowInterfacesProcessBatchEventData # Customized for WonderWare
-  - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
-  - topicUid: BIF_HowBatchDataIsStored # No edits
-    items:
-    - topicUid: BIF_ThePIBatchDatabase # No edits
-    - topicUid: BIF_EventFrames # Customized for WonderWare
-    - topicUid: BIF_EquipmentHierarchy # No edits
-    - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for WonderWare
-  - topicUid: BIF_batchlistmanagement
-  - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
-  - topicUid: BIF_FilterIncomingEvents # No edits
-  - topicUid: BIF_PropertyTemplates # Customized for WonderWare
-  - topicUid: BIF_RecipeTemplates # Customized for WonderWare
-  - topicUid: BIF_TagTemplates # No edits
-  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits
-  - topicUid: BIF_TranslateForeignLanguageData # No edits
+  - topicUid: BIF_HowInterfacesProcessBatchEventData # Customized for Wonderware
+    items: 
+    - topicUid: BIF_InterfaceModes # No modifications required
+    - topicUid: BIF_HowBatchDataIsStored # No edits
+      items:
+        - topicUid: BIF_EventFrames # Customized for WonderWare
+        - topicUid: BIF_EquipmentHierarchy # No edits
+        - topicUid: BIF_HowToMergeMultipleSourceBatches # Customized for WonderWare
+    - topicUid: BIF_batchlistmanagement
+    - topicUid: BIF_EquipmentArbitrationEventsUnavailable # No edits
+  - topicUid: BIF_TemplatesForMappingDataSourceEvents # No edits 
+    items: 
+    - topicUid: BIF_PlaceholdersAndAdvancedParsing # No edits
+    - topicUid: BIF_PropertyTemplates # Customized for WonderWare
+    - topicUid: BIF_RecipeTemplates # Customized for WonderWare
+    - topicUid: BIF_TagTemplates # No edits
+    - topicUid: BIF_FilterIncomingEvents # No edits
+    - topicUid: BIF_TranslateForeignLanguageData # No edits
 # Specific Considerations
 - topicUid: BIF_Interface # Modify for interface
   items:
