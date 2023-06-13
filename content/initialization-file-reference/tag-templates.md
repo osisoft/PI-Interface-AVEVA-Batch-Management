@@ -6,6 +6,7 @@ uid: BIF_Tagtemplates
 
 Tag templates specify how the interface creates and updates PI tags based on incoming data. For example, the following template creates one tag per unit for state change events:
 
+
 ```text
 Tag[1].Name=BESName:[UNIT].Event.[EVENT] 
 Tag[1].Descriptor=[UNIT] [EVENT] 

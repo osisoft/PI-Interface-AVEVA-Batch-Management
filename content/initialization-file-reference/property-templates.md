@@ -6,6 +6,7 @@ uid: BIF_Propertytemplates
 
 To define properties (batch database) or attributes (PI AF) to be stored at a particular level of the batch hierarchy, you create property templates. The syntax for property templates is as follows:
 
+
 ```text
 PROPERTY[<index>].<setting> = <value>
 ```
