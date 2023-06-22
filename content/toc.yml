@@ -59,13 +59,15 @@
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Unmodified
   - topicUid: BIF_TemplatesTab # No edits
     items: 
-    - topicUid: BIF_PropertyTemplates # Unmodified
+    - topicUid: BIF_PropertyTemplatesEFIM # Unmodified
     - topicUid: BIF_RecipeTemplatesEFIM # Unmodified
       items:
+      - topicUid: BIF_DefineRecipeTemplates
+      - topicUid: ABM_RecipeDefaultProperties
       - topicUid: BIF_RecipeTemplateExamples # No edits
-      - topicUid: BIF_RecipeDefaultProperties
     - topicUid: BIF_TagTemplatesEFIM # Unmodified
       items:
+      - topicUid: BIF_ConfigureTagTemplates
       - topicUid: BIF_TagTemplateExamples # No edits
   - topicUid: BIF_FiltersTab # No edits
   - topicUid: BIF_TimeSettingsTab # No edits
