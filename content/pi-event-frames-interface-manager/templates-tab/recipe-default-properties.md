@@ -1,5 +1,5 @@
 ---
-uid: BIF_RecipeDefaultProperties
+uid: ABM_RecipeDefaultProperties
 ---
 
 # Recipe templates default properties
