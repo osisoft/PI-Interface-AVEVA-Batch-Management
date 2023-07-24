@@ -11,6 +11,8 @@
   - topicUid: BIF_SecurityOverview # No edits
     items:
       - topicUid: BIF_AssignPermissions # No edits
+      - topicUid: BIF_ConfigureSecurityForPIAF # No edits
+      - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits   
   - topicUid: BIF_CreateAndConfigureInterfaceInstance # No edits
   - topicUid: BIF_InterfaceFailover
     items:  
@@ -18,8 +20,6 @@
   - topicUid: BIF_PIServerConnectivity # No edits
   - topicUid: BIF_LoggingAndErrorMessages # No edits
   - topicUid: BIF_InterfaceConfiguration
-  - topicUid: BIF_ConfigureSecurityForPIAF # No edits
-  - topicUid: BIF_ConfigureSecurityForPIDataArchive # No edits
 # How Batch Interfaces Work
 - topicUid: BIF_HowBatchInterfacesWork # No edits
   items:
@@ -54,9 +54,9 @@
   items:
   - topicUid: BIF_InterfaceSelectionTab # No edits
   - topicUid: BIF_ServerInformationTab # No edits
-  - topicUid: BIF_SourceTab # Customized for WonderWare
     items:
     - topicUid: BIF_WindowsCredentialManagerAuthentication # Unmodified
+  - topicUid: BIF_SourceTab # Customized for WonderWare
   - topicUid: BIF_TemplatesTab # No edits
     items: 
     - topicUid: BIF_PropertyTemplatesEFIM # Unmodified
